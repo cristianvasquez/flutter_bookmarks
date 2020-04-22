@@ -4,12 +4,12 @@
 import 'dart:math' as math;
 import 'dart:ui' as ui;
 
-import 'package:CardFLows/libraries/zephyr/fast_diff.dart';
 import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/rendering.dart';
 import 'package:notus/notus.dart';
 
+import '../fast_diff.dart';
 import 'controller.dart';
 import 'editable_box.dart';
 import 'scope.dart';

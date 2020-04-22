@@ -5,12 +5,12 @@ import 'dart:async';
 import 'dart:math' as math;
 import 'dart:ui' as ui;
 
-import 'package:CardFLows/libraries/zephyr/widgets/__theme.dart';
 import 'package:flutter/rendering.dart';
 import 'package:flutter/widgets.dart';
 import 'package:meta/meta.dart';
 import 'package:notus/notus.dart';
 
+import '__theme.dart';
 import 'editable_box.dart';
 
 /// Provides interface for embedding images into Zefyr editor.

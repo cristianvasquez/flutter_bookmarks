@@ -1,5 +1,6 @@
-import 'package:CardFLows/model/icons/all_icons.dart';
 import 'package:flutter/widgets.dart';
+
+import 'all_icons.dart';
 
 class NamedIcon implements Comparable {
   final IconData iconData;
