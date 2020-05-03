@@ -1,5 +1,5 @@
-import 'package:CardFLows/main.dart';
-import 'package:CardFLows/widgets/pickers/icon_picker.dart';
+import 'package:flutter_bookmarks/main.dart';
+import 'package:flutter_bookmarks/widgets/pickers/icon_picker.dart';
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 

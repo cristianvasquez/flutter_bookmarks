@@ -1,4 +1,4 @@
-import 'package:CardFLows/util/colors.dart';
+import 'package:flutter_bookmarks/util/colors.dart';
 import 'package:flutter/material.dart';
 
 class BottomBox extends StatelessWidget {

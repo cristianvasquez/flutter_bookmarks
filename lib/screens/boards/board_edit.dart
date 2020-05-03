@@ -1,10 +1,10 @@
-import 'package:CardFLows/main.dart';
-import 'package:CardFLows/model/board.dart';
-import 'package:CardFLows/model/icons/named_icon.dart';
-import 'package:CardFLows/provider/user_repository.dart';
-import 'package:CardFLows/screens/boards/board.dart';
-import 'package:CardFLows/widgets/icons.dart';
-import 'package:CardFLows/widgets/pickers/icon_picker.dart';
+import 'package:flutter_bookmarks/main.dart';
+import 'package:flutter_bookmarks/model/board.dart';
+import 'package:flutter_bookmarks/model/icons/named_icon.dart';
+import 'package:flutter_bookmarks/provider/user_repository.dart';
+import 'package:flutter_bookmarks/screens/boards/board.dart';
+import 'package:flutter_bookmarks/widgets/icons.dart';
+import 'package:flutter_bookmarks/widgets/pickers/icon_picker.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_material_color_picker/flutter_material_color_picker.dart';

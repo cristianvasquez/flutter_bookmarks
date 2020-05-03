@@ -1,6 +1,7 @@
-import 'package:CardFLows/util/colors.dart';
-import 'package:CardFLows/widgets/box.dart';
+import 'package:flutter_bookmarks/util/colors.dart';
+import 'package:flutter_bookmarks/widgets/box.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_bookmarks/util/colors.dart';
 
 Color _pale = AppColors.indigo1;
 Color _bright = AppColors.indigo2;

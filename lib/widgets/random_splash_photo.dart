@@ -1,6 +1,6 @@
 import 'dart:typed_data';
 
-import 'package:CardFLows/model/images.dart';
+import 'package:flutter_bookmarks/model/images.dart';
 import 'package:dio/dio.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';

@@ -26,7 +26,7 @@
 //In the case of trello, they are blocks of cards forming the kanban.
 //In the case of Hypercard, this is the CardStack.
 
-import 'package:CardFLows/model/resource.dart';
+import 'package:flutter_bookmarks/model/resource.dart';
 
 import 'item.dart';
 

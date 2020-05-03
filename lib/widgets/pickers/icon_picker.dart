@@ -1,5 +1,5 @@
-import 'package:CardFLows/model/icons/all_icons.dart';
-import 'package:CardFLows/model/icons/named_icon.dart';
+import 'package:flutter_bookmarks/model/icons/all_icons.dart';
+import 'package:flutter_bookmarks/model/icons/named_icon.dart';
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 

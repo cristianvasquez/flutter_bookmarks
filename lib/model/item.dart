@@ -1,6 +1,6 @@
 import 'dart:convert';
 
-import 'package:CardFLows/model/defaults.dart';
+import 'package:flutter_bookmarks/model/defaults.dart';
 import 'package:notus/notus.dart';
 import 'package:quill_delta/quill_delta.dart';
 

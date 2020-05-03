@@ -1,4 +1,4 @@
-import 'package:CardFLows/model/board.dart';
+import 'package:flutter_bookmarks/model/board.dart';
 
 class Workspace {
   List<Board> boards;

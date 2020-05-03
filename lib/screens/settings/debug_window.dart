@@ -1,8 +1,8 @@
 import 'dart:convert';
 
-import 'package:CardFLows/provider/user_repository.dart';
-import 'package:CardFLows/widgets/buttons.dart';
-import 'package:CardFLows/widgets/dialogs.dart';
+import 'package:flutter_bookmarks/provider/user_repository.dart';
+import 'package:flutter_bookmarks/widgets/buttons.dart';
+import 'package:flutter_bookmarks/widgets/dialogs.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_syntax_view/flutter_syntax_view.dart';
 import 'package:provider/provider.dart';

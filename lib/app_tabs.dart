@@ -1,15 +1,12 @@
-import 'package:CardFLows/screens/board_screen.dart';
-import 'package:CardFLows/screens/home_screen.dart';
-import 'package:CardFLows/screens/profile.dart';
-import 'package:CardFLows/screens/settings/left_drawer.dart';
-import 'package:CardFLows/screens/timeline_screen.dart';
-import 'package:CardFLows/util/util.dart';
-import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_bookmarks/screens/board_screen.dart';
+import 'package:flutter_bookmarks/screens/home_screen.dart';
+import 'package:flutter_bookmarks/screens/settings/left_drawer.dart';
+import 'package:flutter_bookmarks/screens/timeline_screen.dart';
+import 'package:flutter_bookmarks/util/util.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
-import 'package:provider/provider.dart';
 
-const int INITIAL_TAB = 1;
+const int INITIAL_TAB = 0;
 
 class AppTabs extends StatefulWidget {
   const AppTabs({
@@ -38,7 +35,7 @@ class _AppTabsState extends State<AppTabs> {
         child: Scaffold(
           drawer: SettingsDrawer(),
           appBar: AppBar(
-            title: Text("CardFlows"),
+            title: Text("Flutter bookmarks"),
             bottom: TabBar(
               tabs: const [
                 // Alternative material icons:
@@ -51,7 +48,7 @@ class _AppTabsState extends State<AppTabs> {
               ],
             ),
             actions: <Widget>[
-              AvatarButton(),
+              NOTHING,
             ],
           ),
           body: TabBarView(
@@ -64,36 +61,36 @@ class _AppTabsState extends State<AppTabs> {
         ));
   }
 }
-
-class AvatarButton extends StatelessWidget {
-  @override
-  Widget build(BuildContext context) {
-    showProfile() {
-      showModalBottomSheet(
-          context: context,
-          builder: (context) => Container(
-                child: ProfileScreen(),
-              ));
-    }
-
-    var user = Provider.of<FirebaseUser>(context);
-    if (user == null) {
-      return NOTHING;
-    }
-    if (user.photoUrl != null) {
-      return InkWell(
-        onTap: showProfile,
-        child: CircleAvatar(
-          maxRadius: 30,
-          minRadius: 20,
-          backgroundImage: NetworkImage(user.photoUrl),
-        ),
-      );
-    } else {
-      return IconButton(
-        icon: const Icon(Icons.account_circle),
-        onPressed: showProfile,
-      );
-    }
-  }
-}
+//
+//class AvatarButton extends StatelessWidget {
+//  @override
+//  Widget build(BuildContext context) {
+//    showProfile() {
+//      showModalBottomSheet(
+//          context: context,
+//          builder: (context) => Container(
+//                child: ProfileScreen(),
+//              ));
+//    }
+//
+//    var user = Provider.of<FirebaseUser>(context);
+//    if (user == null) {
+//      return NOTHING;
+//    }
+//    if (user.photoUrl != null) {
+//      return InkWell(
+//        onTap: showProfile,
+//        child: CircleAvatar(
+//          maxRadius: 30,
+//          minRadius: 20,
+//          backgroundImage: NetworkImage(user.photoUrl),
+//        ),
+//      );
+//    } else {
+//      return IconButton(
+//        icon: const Icon(Icons.account_circle),
+//        onPressed: showProfile,
+//      );
+//    }
+//  }
+//}

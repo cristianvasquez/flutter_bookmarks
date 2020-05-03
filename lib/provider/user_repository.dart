@@ -1,16 +1,15 @@
 import 'dart:async';
-
-import 'package:CardFLows/model/board.dart';
-import 'package:CardFLows/model/defaults.dart';
-import 'package:CardFLows/model/item.dart';
-import 'package:CardFLows/model/pane.dart';
-import 'package:CardFLows/model/workspace.dart';
-import 'package:CardFLows/services/auth.dart';
-import 'package:CardFLows/services/db_local.dart';
-import 'package:firebase_auth/firebase_auth.dart';
-import 'package:flutter/cupertino.dart';
-import 'package:sembast/sembast.dart';
 import 'dart:developer' as developer;
+
+import 'package:flutter/cupertino.dart';
+import 'package:flutter_bookmarks/model/board.dart';
+import 'package:flutter_bookmarks/model/defaults.dart';
+import 'package:flutter_bookmarks/model/item.dart';
+import 'package:flutter_bookmarks/model/pane.dart';
+import 'package:flutter_bookmarks/model/workspace.dart';
+import 'package:flutter_bookmarks/services/db_local.dart';
+import 'package:flutter_bookmarks/services/streams.dart';
+import 'package:sembast/sembast.dart';
 
 class UserRepository extends ChangeNotifier {
   Workspace _workspace;
@@ -36,8 +35,10 @@ class UserRepository extends ChangeNotifier {
 
   Future<void> _update(Workspace _workspace) async {
     Database db = await LocalDatabase.instance.db;
-    FirebaseUser user = await AuthService().getUser;
-    await workspaceStore.record(user.uid).put(db, _workspace.toJsonMap());
+//    FirebaseUser user = await AuthService().getUser;
+//    await workspaceStore.record(user.uid).put(db, _workspace.toJsonMap());
+    int userId = USER_ID;
+    await workspaceStore.record(userId).put(db, _workspace.toJsonMap());
   }
 
   /// Resets all data from the workspace to the default values

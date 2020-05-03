@@ -1,9 +1,9 @@
-import 'package:CardFLows/model/board.dart';
-import 'package:CardFLows/model/icons/named_icon.dart';
-import 'package:CardFLows/model/item.dart';
-import 'package:CardFLows/model/pane.dart';
-import 'package:CardFLows/model/workspace.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_bookmarks/model/board.dart';
+import 'package:flutter_bookmarks/model/icons/named_icon.dart';
+import 'package:flutter_bookmarks/model/item.dart';
+import 'package:flutter_bookmarks/model/pane.dart';
+import 'package:flutter_bookmarks/model/workspace.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:uuid/uuid.dart';
 

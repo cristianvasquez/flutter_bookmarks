@@ -1,7 +1,7 @@
-import 'package:CardFLows/main.dart';
-import 'package:CardFLows/model/board.dart';
-import 'package:CardFLows/model/item.dart';
-import 'package:CardFLows/screens/boards/card/card_editor.dart';
+import 'package:flutter_bookmarks/main.dart';
+import 'package:flutter_bookmarks/model/board.dart';
+import 'package:flutter_bookmarks/model/item.dart';
+import 'package:flutter_bookmarks/screens/boards/card/card_editor.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 

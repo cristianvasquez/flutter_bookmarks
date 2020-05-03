@@ -1,8 +1,8 @@
-import 'package:CardFLows/model/icons/named_icon.dart';
-import 'package:CardFLows/util/colors.dart';
-import 'package:CardFLows/util/util.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_bookmarks/model/icons/named_icon.dart';
+import 'package:flutter_bookmarks/util/colors.dart';
+import 'package:flutter_bookmarks/util/util.dart';
 
 import 'pane.dart';
 import 'resource.dart';

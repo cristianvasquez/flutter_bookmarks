@@ -1,8 +1,8 @@
 import 'dart:developer' as developer;
 
-import 'package:CardFLows/model/pane.dart';
-import 'package:CardFLows/provider/user_repository.dart';
-import 'package:CardFLows/util/colors.dart';
+import 'package:flutter_bookmarks/model/pane.dart';
+import 'package:flutter_bookmarks/provider/user_repository.dart';
+import 'package:flutter_bookmarks/util/colors.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';

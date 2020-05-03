@@ -1,13 +1,13 @@
 import 'dart:math';
 
-import 'package:CardFLows/main.dart';
-import 'package:CardFLows/model/board.dart';
-import 'package:CardFLows/model/defaults.dart';
-import 'package:CardFLows/model/icons/all_icons.dart';
-import 'package:CardFLows/provider/user_repository.dart';
-import 'package:CardFLows/screens/boards/board.dart';
-import 'package:CardFLows/util/colors.dart';
-import 'package:CardFLows/widgets/icons.dart';
+import 'package:flutter_bookmarks/main.dart';
+import 'package:flutter_bookmarks/model/board.dart';
+import 'package:flutter_bookmarks/model/defaults.dart';
+import 'package:flutter_bookmarks/model/icons/all_icons.dart';
+import 'package:flutter_bookmarks/provider/user_repository.dart';
+import 'package:flutter_bookmarks/screens/boards/board.dart';
+import 'package:flutter_bookmarks/util/colors.dart';
+import 'package:flutter_bookmarks/widgets/icons.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';

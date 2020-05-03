@@ -1,10 +1,10 @@
-import 'package:CardFLows/main.dart';
-import 'package:CardFLows/model/board.dart';
-import 'package:CardFLows/model/images.dart';
-import 'package:CardFLows/provider/user_repository.dart';
-import 'package:CardFLows/screens/boards/board_edit.dart';
-import 'package:CardFLows/screens/boards/kanban_board.dart';
-import 'package:CardFLows/widgets/pickers/background_image_picker.dart';
+import 'package:flutter_bookmarks/main.dart';
+import 'package:flutter_bookmarks/model/board.dart';
+import 'package:flutter_bookmarks/model/images.dart';
+import 'package:flutter_bookmarks/provider/user_repository.dart';
+import 'package:flutter_bookmarks/screens/boards/board_edit.dart';
+import 'package:flutter_bookmarks/screens/boards/kanban_board.dart';
+import 'package:flutter_bookmarks/widgets/pickers/background_image_picker.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/rendering.dart';
