@@ -7,17 +7,25 @@ The application has only been tested in a Tablet.
 
 ## Screenshots
 
+## Board selection
+
 The first screen is where you select your boards.
 
 ![docs/board_1.jpg](docs/board_list.jpg)
+
+## Panes and cards
 
 A board has panes with cards that you can drag around.
 
 ![docs/board_1.jpg](docs/board_1.jpg)
 
+## Editor
+
 Each card can be edited with a rich editor, courtesy of [zephir](https://pub.dev/packages/zefyr). 
 
 ![docs/board_1.jpg](docs/edit.jpg)
+
+## Images
 
 You can customize Boards with background images from [Unsplash](https://unsplash.com/) and Icons from [Font awesome](https://fontawesome.com/)
 
